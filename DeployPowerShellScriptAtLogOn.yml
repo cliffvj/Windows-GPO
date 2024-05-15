@@ -1,0 +1,8 @@
+User Configuration:
+  Policies:
+    Windows Settings:
+      Scripts(Logon/Logoff):
+        - Logon: PowerShell Scripts:
+          #your script file    
+      
+      
