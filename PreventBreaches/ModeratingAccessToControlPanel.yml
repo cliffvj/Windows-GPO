@@ -1,5 +1,5 @@
-- User Configuration
-  Policies
-    Administrative Templates
+User Configuration:
+  Policies:
+    Administrative Templates:
       Control Panel:
       - Prohibit Access to Control Panel and PC Settings
