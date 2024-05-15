@@ -1,0 +1,6 @@
+Computer Configuration:
+  Policies:
+    Administrative Templates:
+      Windows Components:
+        Windows Installer:
+          - Prohibit User Installs    
