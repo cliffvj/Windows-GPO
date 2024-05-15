@@ -1,0 +1,6 @@
+Computer Configuration:
+  Policies:
+    Administrative Templates:
+      Windows Components:
+        Windows Update:
+        - No auto-restart with logged on users for scheduled automatic updates installations
