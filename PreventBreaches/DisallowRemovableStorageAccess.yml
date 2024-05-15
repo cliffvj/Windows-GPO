@@ -1,0 +1,6 @@
+User Configuration:
+  Policies:
+    Administrative Templates:
+      System:
+        Removable Storage Access:
+          - All Removable Storage classes: Deny all access
