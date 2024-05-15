@@ -1,0 +1,8 @@
+Computer Configuration:
+  Policies:
+    Windows Settings:
+      Security Settings:
+        Local Policies:
+          Security Options:
+            - Network access: Do not allow anonymous enumeration of SAM accounts and shares:
+              Define this policy setting: Enabled
