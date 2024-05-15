@@ -1,5 +1,0 @@
-- User Configuration
-  Policies
-    Administrative Templates
-      System:
-      - Prevent access to command prompt
