@@ -1,0 +1,6 @@
+User Configuration:
+  Policies:
+    Administrative Templates:
+      Windows Components:
+        Windows Installer:
+          - Prevent removable media source for any installation: Enabled
