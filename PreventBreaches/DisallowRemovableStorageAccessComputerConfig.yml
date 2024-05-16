@@ -1,0 +1,8 @@
+Computer Configuration:
+  Policies:
+    Administrative Templates:
+      System:
+        Removable Storage Access:
+          - Removable Disks: Deny execute access: Enabled
+          - Removable Disks: Deny read access: Enabled
+          - Removable Disks: Deny write access
