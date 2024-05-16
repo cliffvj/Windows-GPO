@@ -3,4 +3,4 @@ Computer Configuration:
     Administrative Templates:
       Windows Components:
         Windows Installer:
-          - Prohibit User Installs    
+          - Prohibit User Installs: Enabled
