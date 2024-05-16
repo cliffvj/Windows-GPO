@@ -2,4 +2,4 @@ User Configuration:
   Policies:
     Administrative Templates:
       System:
-      - Prevent access to command prompt
+      - Prevent access to command prompt: Enabled
