@@ -4,4 +4,4 @@ Computer Configuration:
       Security Settings:
         Local Policies:
           Security Options:
-          - Network security: Do not store LAN Manager hash value on next password change
+          - Network security: Do not store LAN Manager hash value on next password change: Enabled
