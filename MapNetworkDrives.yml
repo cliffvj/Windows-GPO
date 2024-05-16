@@ -1,0 +1,16 @@
+User Configuration:
+  Preferences:
+    Windows Settings:
+      Drive Maps: 
+        - New: Mapped Drive:
+          General:
+            - Action: { Create | Replace | Update | Delete }
+            - Location: \\hostname\share
+            - Reconnect: [checked]
+            - Label as: Share Label
+            - Drive Letter [Use]:[D..Z]
+          Common:
+            - Run in logged-on user's security context (user policy option): [checked]
+            - Item-level targetting: Targetting[editor]
+              - New Item: Security Group:
+                [ ... ]
