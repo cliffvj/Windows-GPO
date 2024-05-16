@@ -1,0 +1,9 @@
+Computer Configuration:
+  Policies:
+    Administrative Templates:
+      Start Menu and Taskbar:
+        - Remove and prevent access to the Shut Restart, Sleep, and Hibernate commands
+        - Remove frequent programs list from the Start Menu
+        - Remove All Programs list from the Start menu
+        - Do not keep history of recently opened documents
+        # Included only common list. Default state is Not configured. Select Enabled to activate.
