@@ -3,4 +3,4 @@ User Configuration:
     Administrative Templates:
       System:
         Removable Storage Access:
-          - All Removable Storage classes: Deny all access
+          - All Removable Storage classes: Deny all access: Enabled
