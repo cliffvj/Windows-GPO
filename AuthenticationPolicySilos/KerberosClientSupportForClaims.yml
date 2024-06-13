@@ -1,0 +1,6 @@
+Computer Configuration:
+  Policies:
+    Administrative Templates:
+      System:
+        Kerberos:
+        - Kerberos client support for claims, compound authentication and Kerberos armoring: Enabled
