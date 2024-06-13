@@ -1,0 +1,6 @@
+Computer Configuration:
+  Policies:
+    Administrative Templates:
+      System:
+        KDC:
+        - KDC support for claims, compound authentication and Kerberos armoring: Enabled
