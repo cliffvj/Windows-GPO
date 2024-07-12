@@ -1,0 +1,20 @@
+Computer Configuration:
+  Policies:
+    Windows Settings:
+      Security Settings:
+        Windows Defender Firewall with Advanced Security:
+          Windows Defender Firewall with Advanced Security:
+            - Overview:
+              Windows Defender Firewall Properties:
+                - Domain Profile: #Set the profile to the default settings
+                  - Firewall State: On (recommended)
+                  - Inbound connection: Block (default)
+                  - Outbound connection: Allow (default)
+            - Inbound Rules: New Rule # Rule creation via local GUI
+              - Rule Type: Port
+              - Protocol and Ports:
+                - TCP
+                - Specific local ports: 80
+              - Action: Allow the connection
+              - Profile: [Domain, Private, Public]
+              - Name: "Port 80 IN"           
