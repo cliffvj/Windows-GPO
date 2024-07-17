@@ -1,0 +1,30 @@
+Computer Configuration:
+  Policies:
+    Windows Settings:
+      Security Settings:
+        Windows Defender Firewall with Advanced Security:
+          Windows Defender Firewall with Advanced Security:
+            - Overview:
+              Windows Defender Firewall Properties:
+                - Domain Profile: #Set the profile to the default settings
+                  - Firewall State: On (recommended)
+                  - Inbound connection: Block (default)
+                  - Outbound connection: Allow (default)
+                - IPsec Settings:
+                  - IPsec exemptions: Exempt ICMP from IPsec: Yes
+                  - IPsec defaults: Customize # Setup after Connection Security Rule (Authentication Exemption) is created
+                    - Key exchange (Main Mode): Default (recommended)
+                    - Data Protection (Quick Mode): Default (recommended)
+                    - Authentication method: Computer (Kerberos V5)
+            - Connection Security Rules: New Rule
+              - Rule Type: Authentication exemption
+              - Exempt Computers: Add
+                - This IP address or subnet: 10.0.1.0/26
+              - Profile: [Domain, Private, Public]
+              - Name: "Bastion Exemption"
+            - Connection Security Rules: New Rule
+              - Rule Type: Isolation
+              - Requirements: Request authentication for inbound and outbound connections
+              - Authentication Method: Computer (Kerberos V5)
+              - Profile: [Domain, Private, Public]
+              - Name: "Auth Rule"      
