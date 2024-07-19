@@ -1,0 +1,7 @@
+Computer Configuration:
+  Policies:
+    Administrative Templates:
+      Windows Components:
+        File Explorer:
+          - Configure Windows Defender SmartScreen: Enabled
+            - Warn and prevent bypass          
