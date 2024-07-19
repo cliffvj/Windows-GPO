@@ -1,0 +1,8 @@
+Computer Configuration:
+  Policies:
+    Windows Settings:
+      Security Settings:
+        Local Policies:
+          User Rights Assignment:
+            - Deny log on through Remote Desktop Services: Define these policy settings:
+              Add User or Group: * # e.g. CORP\Sales
