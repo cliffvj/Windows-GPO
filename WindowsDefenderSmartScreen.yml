@@ -2,6 +2,11 @@ Computer Configuration:
   Policies:
     Administrative Templates:
       Windows Components:
-        File Explorer:
-          - Configure Windows Defender SmartScreen: Enabled
-            - Warn and prevent bypass          
+        Windows Defender SmartScreen
+          Explorer:
+            - Configure App Install Control: Enabled
+            - Configure Windows Defender SmartScreen: Enabled
+              - Warn and prevent bypass
+          Microsoft Edge:
+            - Configure Windows Defender SmartScreen: Enabled
+            - Prevent bypassing Windows Defender SmartScreen prompts for sites: Enabled
